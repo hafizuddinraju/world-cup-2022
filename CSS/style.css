@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+    width: 870px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 30px 30px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    text-align: justify;
+}
+
+.header h1 {
+    font-size: 40px;
+    line-height: 25px;
+
+}
+
+.header-section {
+    margin-top: 36px;
+
+}
+
+.header {
+    margin-left: 40px;
+}
+
+.header button {
+    border: 0;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.fa-arrow-right {
+    padding-left: 0.25ch;
+}
+
+/* Latest Course Start****** */
+
+
+.latest-blog-section {
+    width: 100%;
+    margin-top: 36px;
+    margin-bottom: 30px;
+}
+
+.latest-blog-container {
+    width: 870px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 5px;
+}
+
+
+
+
+.latest-blog-title h3 {
+    font-size: 10px;
+    font-weight: 700;
+    color: #562EFF;
+}
+
+.latest-blog-cardbox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 53px;
+    
+}
+
+.latest-blog-cardbox img {
+    width: 60px;
+    height: 60px;
+    
+}
+
+.latest-blog-card-inner {
+    padding: 10px 0 20px 10px;
+    border: 1px solid gainsboro;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 13px 13px 16px #f7f7f7,
+        -13px -13px 16px #ffffff;
+
+}
+
+.latest-blog-card-inner img {
+    Width: 234px;
+    Height: 114px;
+}
+
+.latest-blog-card-inner h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.latest-blog-card-inner p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ED6B4F;
+    margin-bottom: 20px;
+}
+
+.rating-star {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fa-star {
+    color: #FFC014;
+    font-size: 12px;
+}
+.fa-message{
+    margin-left: 40px;
+    color: #AEAEAE;
+    
+}
+.fa-message span{
+    padding-left: 5px;
+    font-size: 13px;
+    color: gray;
+}
+
+
+.empty-star {
+    color: #AEAEAE;
+}
+
+.rate {
+    font-size: 14px;
+    margin-left: 5px;
+    
+    color: #A2A2A2;
+    
+}
+
+.rate-btn {
+    padding: 3px 10px;
+    
+    margin-left: 20px;
+}
+
+.rate-btn a {
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.fa-clock {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+
+/* Latest Course End ****** */
+
+
+/* footer */
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+footer h1{
+    color: #D1D1D1;
+    text-align: center;
+    padding-top: 20px;
+}
