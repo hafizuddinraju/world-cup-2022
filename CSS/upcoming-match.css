@@ -7,6 +7,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Header Start */
+
 .header-container {
     width: 870px;
     margin: 0 auto;
@@ -30,7 +32,7 @@ body {
 }
 
 .header {
-    margin-left: 40px;
+    margin-left: 0px;
 }
 
 .header button {
@@ -47,7 +49,112 @@ body {
     padding-left: 0.25ch;
 }
 
-/* Latest Course Start****** */
+/* media screen */
+@media (max-width: 480px) {
+    .header-section {
+        width: 80%;
+        margin-left: 10px;
+
+
+
+
+    }
+
+    .header-container {
+        width: 100%;
+
+
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .header-container .header {
+        font-size: 10px;
+
+
+
+    }
+
+
+
+
+}
+
+/* medium device */
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-section {
+        width: 80%;
+        margin-left: 10px;
+
+    }
+
+    .header-container {
+        width: 100%;
+
+
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+
+
+
+
+    }
+
+    .header-container .header {
+        font-size: 10px;
+
+    }
+
+
+}
+
+/* large device */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-section {
+        width: 90%;
+        margin-left: 10px;
+
+
+    }
+
+    .header-container {
+        width: 100%;
+
+        margin-right: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+
+
+    }
+
+    .header-container .header {
+        font-size: 10px;
+
+    }
+
+    .header-container .header h1 {
+        line-height: 30px;
+
+    }
+
+}
+
+/* Header Media end */
+
+/* Header End */
+/* Header Media end */
+
+/* Header End */
+
+/* Latest section Start****** */
 
 
 .latest-blog-section {
@@ -186,6 +293,130 @@ body {
     color: #ED6B4F;
     margin-bottom: 20px;
 }
+/* small device */
+@media (max-width: 480px) {
+    .latest-blog-section {
+        width: 80%;
+    }
+
+    .latest-blog-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .latest-blog {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .menu-container {
+        background-color: #fff;
+    }
+
+    .menu-btn {
+        border: 1px solid gray;
+    }
+
+    .latest-blog-cardbox {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 0%;
+        margin-left: 15px;
+        font-size: 20px;
+
+    }
+}
+
+/* medium device */
+@media (min-width: 481px) and (max-width: 767px) {
+    .latest-blog-section {
+        width: 80%;
+        
+    }
+
+    .latest-blog-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .latest-blog {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .menu-container {
+        background-color: #fff;
+    }
+
+    .menu-btn {
+        border: 1px solid gray;
+    }
+
+    .latest-blog-cardbox {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+        width: 0%;
+        margin-left: 45px;
+        font-size: 20px;
+
+    }
+
+}
+
+/* larger device */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .latest-blog-section {
+        width: 80%;
+    }
+
+    .latest-blog-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .latest-blog {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .menu-container {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        margin-left: 30px;
+
+
+    }
+
+    .menu-btn {
+        border: 1px solid gray;
+        padding: 3px 50px;
+    }
+
+    .latest-blog-cardbox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+
+        width: 0%;
+        margin-left: 50px;
+        font-size: 20px;
+
+    }
+
+}
+
+
+
+/* Latest Section End ****** */
 
 
 
@@ -200,7 +431,8 @@ body {
 
 
 
-/* Latest Course End ****** */
+
+/* Latest section End ****** */
 
 
 /* footer */
