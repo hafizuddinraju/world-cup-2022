@@ -7,6 +7,57 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* animation start */
+
+@keyframes sliding {
+    0% {
+        background-color: red;
+        left: 0;
+        top: 0;
+
+    }
+
+    25% {
+        top: -500px;
+        background-color: blue;
+        transform: scale(0.5);
+    }
+
+    50% {
+        top: 0;
+        background-color: red;
+        transform: scale(1);
+
+    }
+
+    75% {
+        top: -500px;
+        background-color: blue;
+        transform: scale(0.5);
+    }
+
+
+    100% {
+        background-color: red;
+        left: 92%;
+        top: 0;
+    }
+
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    
+    border-radius: 50%;
+    animation: sliding 3s ease-in-out 0.5s infinite alternate;
+    animation-play-state: running;
+}
+
+/* animation end */
+
 /* Header Start */
 
 .header-container {
@@ -335,7 +386,7 @@ body {
 
     .menu-container {
         background-color: #fff;
-        
+
     }
 
     .menu-btn {
