@@ -323,7 +323,8 @@ body {
 
     .latest-blog-container {
         width: 100%;
-        margin: 0;
+        /* padding: 0; */
+        /* margin: 0; */
     }
 
     .latest-blog {
@@ -334,6 +335,7 @@ body {
 
     .menu-container {
         background-color: #fff;
+        
     }
 
     .menu-btn {
@@ -344,8 +346,9 @@ body {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 0%;
-        margin-left: 45px;
+        margin-left: 40px;
         font-size: 20px;
+        padding: 0;
 
     }
 }
